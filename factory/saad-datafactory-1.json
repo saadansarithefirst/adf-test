@@ -1,0 +1,9 @@
+{
+	"name": "saad-datafactory-1",
+	"location": "westeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "7996863e-b506-4704-acd7-12a29e2e8c37",
+		"tenantId": "9f37a392-f0ae-4280-9796-f1864a10effc"
+	}
+}
