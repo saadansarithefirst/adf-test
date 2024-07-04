@@ -6,9 +6,6 @@
 			"sources": [
 				{
 					"name": "source1"
-				},
-				{
-					"name": "source2"
 				}
 			],
 			"sinks": [],
@@ -23,8 +20,6 @@
 			"scriptLines": [
 				"source(allowSchemaDrift: true,",
 				"     validateSchema: false) ~> source1",
-				"source(allowSchemaDrift: true,",
-				"     validateSchema: false) ~> source2",
 				"compose(composition: 'undefined') ~> compose1@(temporary)",
 				"compose1@temporary join(ERROR_FUNCTION('') == ERROR_FUNCTION(''),",
 				"     joinType:'inner',",
